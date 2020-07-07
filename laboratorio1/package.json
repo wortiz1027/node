@@ -1,0 +1,37 @@
+{
+	"name": "laboratorio1",
+	"version": "1.0.0",
+	"description": "Api rest - CRUD MySQL connection",
+	"main": "index.js",
+	"scripts": {
+		"dev": "nodemon index.js"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+ssh://git@gitlab.com/wortiz1027/node.git"
+	},
+	"keywords": [
+		"Api",
+		"rest",
+		"mysql",
+		"crud",
+		"queries"
+	],
+	"author": "wortiz",
+	"license": "MIT",
+	"bugs": {
+		"url": "https://gitlab.com/wortiz1027/node/issues"
+	},
+	"homepage": "https://gitlab.com/wortiz1027/node#readme",
+	"dependencies": {
+		"bcryptjs": "^2.4.3",
+		"body-parser": "^1.19.0",
+		"express": "^4.17.1",
+		"express-validator": "^6.6.0",
+		"http-status-codes": "^1.4.0",
+		"jwt-simple": "^0.5.6",
+		"moment": "^2.27.0",
+		"mysql2": "^2.1.0",
+		"sequelize": "^6.3.0"
+	}
+}
